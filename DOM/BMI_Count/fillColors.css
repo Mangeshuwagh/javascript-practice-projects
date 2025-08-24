@@ -38,10 +38,11 @@ body {
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.container input {
+
+/* .container input {
   width: 75%;
 
-  /* color: rgb(242, 138, 138); */
+  
   color: #222;
   text-align: center;
   outline: none;
@@ -52,7 +53,18 @@ body {
   height: 50px;
   font-size: 1em;
   background: transparent;
+} */
+
+.container input {
+  width: 75%;
+  height: 60px;
+  text-align: center;
+  background: transparent; /* removes the background color */
+  border: 1px solid #fff; /* optional: visible border */
+  color: #fff; /* text color inside input */
+  outline: none; /* removes the blue outline on focus */
 }
+
 .container label {
   color: #f4f0eb;
   text-shadow: 1px 1px 2px #020024;
